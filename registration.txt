@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+		<legend>RegistrationForm</legend>
+		<center>
+
+		<table>
+		<tr>
+			<td>User Name : </td>
+			<td><input type="text" name="txtuname" autofocus></td>
+		</tr>
+		<tr>
+			<td>Password : </td>
+			<td><input type="password" name="txtpwd"></td>
+		</tr>
+		<tr>
+			<td>Gender : </td> 
+			<td><input type="radio" name="gender" value="m">Male</input><br>
+				<input type="radio" name="gender" value="f">Female</input><br>
+				<input type="radio" name="gender" value="o">Others</input>
+			</td>
+		</tr>
+		<tr>
+			<td>Languages Known</td>
+			<td><input type="checkbox">English</input><br>
+				<input type="checkbox">Hindi</input><br>
+				<input type="checkbox">Telugu</input>
+			</td>
+		</tr>
+		<tr>
+			<td> Mobile No : </td>
+			<td><input type="tel" name="txtpho"/></td>
+		</tr>
+		<tr>
+			<td>DOB : </td>
+			<td><input type="date" name="date"/></td>
+		</tr>
+		<tr>
+			<td>Qualification : </td>
+			<td><select>
+				<option value="btech">B.tech</option>
+				<option value="be">B.E</option>
+				<option value="mtech">M.tech</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Address : </td>
+			<td><textarea> Enter </textarea></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="SUBMIT"/></td>
+			<td><input type="button" value="CANCEL"/></td>
+		</tr>
+		</table>
+		</center>
+		</fieldset>
+	</form>
+</body>
+</html>
